@@ -50,6 +50,7 @@ spring:
           json:
             trusted:
               packages: net.engineeringdigest.journalApp.model
+              
     properties:
       security:
         protocol: SASL_SSL
