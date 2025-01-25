@@ -12,7 +12,7 @@ spring:
   main:
     allow-circular-references: true
   server:
-    port: ${SERVER_PORT}
+    port: {SERVER_PORT}
     servlet:
       context-path: /journal
   redis:
@@ -50,7 +50,7 @@ spring:
           json:
             trusted:
               packages: net.engineeringdigest.journalApp.model
-              
+
     properties:
       security:
         protocol: SASL_SSL
